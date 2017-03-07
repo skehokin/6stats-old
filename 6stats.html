@@ -3,12 +3,12 @@
 <html>
 <head>
 <title> Stat roller</title>
-
+<script type="text/javascript" src="6stats.js"></script>
 <style>
 p{
 	margin:0px;
-	
-	
+
+
 	}
 body{
 font-family:"Trebuchet MS", Helvetica, sans-serif;
@@ -60,7 +60,7 @@ border-radius:15px;
 
 #prosecontainer{
 font-size:0.8em;
-padding:20px; 
+padding:20px;
 
 }
 
@@ -235,7 +235,7 @@ float:left;
 }
 
 #ace{
-	
+
 	float:left;
 	margin-left:3px;
 	}
@@ -246,38 +246,38 @@ margin:0px;
 }
 
 
-	
-	
+
+
 	#age{
 		font-size:0.8em;
-		
-		
-		
+
+
+
 		}
 		#perstraits{
-			
+
 			width:200px;
-			
-			
+
+
 			}
-			
+
 			.left{
 				float:left;
 				font-size:0.5em;
-				
+
 				}
 				.right{
 				float:right;
 				font-size:0.5em;
-				
+
 				}
-				
-		
+
+
 		.bigp{
 			margin:0 0 20px 0 ;
-			
-			
-			
+
+
+
 			}
 #weirdfacts{
 
@@ -301,9 +301,9 @@ float:left;
 display:none;
 }
 h3{
-	
-	
-	
+
+
+
 	}
 
 #headcontainer{
@@ -342,12 +342,12 @@ h1{
 
 <div id="statnames">
 
-<p class="bigp">str</p>
-<p class="bigp">dex</p>
-<p class="bigp">con</p>
-<p class="bigp">int</p>
-<p class="bigp">wis</p>
-<p class="bigp">cha</p>
+<p class="bigp">Str</p>
+<p class="bigp">Dex</p>
+<p class="bigp">Con</p>
+<p class="bigp">Int</p>
+<p class="bigp">Wis</p>
+<p class="bigp">Cha</p>
 
 
 </div>
@@ -381,7 +381,7 @@ h1{
 <div id="class"> </div>
 
 </div>
-<div id="stategender">gender: </div>
+<div id="stategender">Gender: </div>
 <div id="moneywrapper">
 
 <div id="money"></div>
@@ -389,7 +389,7 @@ h1{
 <div id="chardesc">
 
 
-<div id="gender"> 
+<div id="gender">
 ..Gender:
 <div class="clear"></div>
 <p id="female">female</p> <p id="male">male</p>
@@ -402,7 +402,7 @@ h1{
 </div>
 
 
-<div id="sexual"> 
+<div id="sexual">
 ..Sexuality:
 <div class="clear"></div>
 <div id="ace"> X</div> &nbsp;<div class="num">&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div class="num">1&nbsp;&nbsp;&nbsp;&nbsp;</div><div  class="num">2&nbsp;&nbsp;&nbsp;</div><div  class="num">3&nbsp;&nbsp;</div><div  class="num">4&nbsp;</div><div  class="num">5</div><div class="num">6</div>
@@ -469,38 +469,38 @@ h1{
 
 
 <div id="skin" class="slider">Skin Color<br />
-<p class="left">Dark</p> <p class="right">Light</p> <div class="clear"></div> 
+<p class="left">Dark</p> <p class="right">Light</p> <div class="clear"></div>
 <hr /><p id="skinarrow">&#8679;</p>
 </div>
 
 <div id="haircolor" class="slider">Hair Color<br />
-<p class="left">Dark</p> <p class="right">Light</p> <div class="clear"></div> 
+<p class="left">Dark</p> <p class="right">Light</p> <div class="clear"></div>
 <hr /><p id="colorarrow">&#8679;</p>
 
-<p class="left">Not Red</p> <p class="right">Red</p> 
-<div class="clear"></div> 
+<p class="left">Not Red</p> <p class="right">Red</p>
+<div class="clear"></div>
 <hr /><p id="redarrow">&#8679;</p>
 
 </div>
 
 <div id="hairlength" class="slider">Hair Length<br />
-<p class="left">Bald</p> <p class="right">Ass-length</p> <div class="clear"></div> 
+<p class="left">Bald</p> <p class="right">Ass-length</p> <div class="clear"></div>
 <hr /><p id="hairarrow">&#8679;</p>
 </div>
 <div id="beard">Beard<br />
-<p class='left'>none </p> <p class='right'>moustache full beard  </p> <div class='clear'></div> 
+<p class='left'>none </p> <p class='right'>moustache full beard  </p> <div class='clear'></div>
 <hr /><p id="beardarrow">&#8679;</p>
 </div>
 
 <div id="hairkind">Hair state<br />
-<p class='left'>straight </p> <p class='right'>tightly curled</p> <div class='clear'></div> 
+<p class='left'>straight </p> <p class='right'>tightly curled</p> <div class='clear'></div>
 <hr /><p id="curlarrow">&#8679;</p>
 
 </div>
 
 
 <div id="appearance" class="slider">Care in Appearance<br />
-<p class="left">Messy</p> <p class="right">Fabulous</p> <div class="clear"></div> 
+<p class="left">Messy</p> <p class="right">Fabulous</p> <div class="clear"></div>
 <hr /><p id="carearrow">&#8679;</p>
 </div>
 
@@ -510,7 +510,7 @@ h1{
 <h4>Physical</h4>
 
 <div id="muscles" class="slider">Muscliness<br />
-<p class="left">Skinny</p> <p class="right">Huge</p> <div class="clear"></div> 
+<p class="left">Skinny</p> <p class="right">Huge</p> <div class="clear"></div>
 
  <hr />
 <p id="musarrow">&#8679;</p>
@@ -518,7 +518,7 @@ h1{
 
 
 <div id="height" class="slider">Height<br />
-<p class="left">Short</p> <p class="right">Tall</p> <div class="clear"></div> 
+<p class="left">Short</p> <p class="right">Tall</p> <div class="clear"></div>
 
 
 <hr /><p id="heightarrow">&#8679;</p>
@@ -528,7 +528,7 @@ h1{
 
 <div id="width" class="slider">Shoulder width<br />
 
-<p class="left">Narrow</p> <p class="right">Wide</p> <div class="clear"></div> 
+<p class="left">Narrow</p> <p class="right">Wide</p> <div class="clear"></div>
 
 <hr /><p id="shouldarrow">&#8679;</p>
 
@@ -536,14 +536,14 @@ h1{
 
 <div id="fatness" class="slider">Fatness<br />
 
-<p class="left">Starving</p> <p class="right">Hugely obese</p> <div class="clear"></div> 
+<p class="left">Starving</p> <p class="right">Hugely obese</p> <div class="clear"></div>
 
 <hr />
 <p id="fatarrow">&#8679;</p>
 </div>
 
 <div id="Libido" class="slider">Libido<br />
-<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div> 
+<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div>
 
 
 <hr />
@@ -558,14 +558,14 @@ h1{
 
 
 <div id="sociability" class="slider">Sociablity<br />
-<p class="left">Hermit</p> <p class="right">Butterfly</p> <div class="clear"></div> 
+<p class="left">Hermit</p> <p class="right">Butterfly</p> <div class="clear"></div>
 
 <hr />
 <p id="socarrow">&#8679;</p>
 </div>
 
 <div id="violence" class="slider">Tendency to violence<br />
-<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div> 
+<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div>
 
 <hr />
 <p id="vioarrow">&#8679;</p>
@@ -573,7 +573,7 @@ h1{
 </div>
 
 <div id="conflict" class="slider">Conflict/Conciliation seeking<br />
-<p class="left">Conciliatory</p> <p class="right">Conflicty</p> <div class="clear"></div> 
+<p class="left">Conciliatory</p> <p class="right">Conflicty</p> <div class="clear"></div>
 
 
 <hr />
@@ -614,13 +614,13 @@ h1{
 <h4>Psychological Traits</h4>
 
 <div id="Mood" class="slider">Primary Mood<br />
-<p class="left">Negative</p> <p class="right">Positive</p> <div class="clear"></div> 
+<p class="left">Negative</p> <p class="right">Positive</p> <div class="clear"></div>
 <hr />
 <p id="moodarrow">&#8679;</p>
 </div>
 
 <div id="confidence" class="slider"> Self-worth<br />
-<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div> 
+<p class="left">Low</p> <p class="right">High</p> <div class="clear"></div>
 <hr />
 <p id="confarrow">&#8679;</p>
 </div>
@@ -630,20 +630,20 @@ h1{
 </div>
 
 <div id="anx" class="slider">Level of Give-a-Shit<br />
-<p class="left">Laid back</p> <p class="right">Uptight</p> <div class="clear"></div> 
+<p class="left">Laid back</p> <p class="right">Uptight</p> <div class="clear"></div>
 <hr />
 <p id="anxarrow">&#8679;</p>
 </div>
 
 <div id="cynicism" class="slider">Cynicism<br />
-<p class="left">Idealist</p> <p class="right">Cynic</p> <div class="clear"></div> 
+<p class="left">Idealist</p> <p class="right">Cynic</p> <div class="clear"></div>
 <hr />
 <p id="cynarrow">&#8679;</p>
 
 </div>
 
 <div id="aesthetics" class="slider">Sense of Aesthetics<br />
-<p class="left">None</p> <p class="right">Artistic</p> <div class="clear"></div> 
+<p class="left">None</p> <p class="right">Artistic</p> <div class="clear"></div>
 
 <hr />
 <p id="aesarrow">&#8679;</p>
@@ -699,6 +699,8 @@ h1{
 
 
 <script>
+
+
 var l;
 var g;
 var f;
@@ -733,8 +735,8 @@ ag=50+(Math.floor(ag*20));
 }
 else{
 	ag=70+(Math.floor(ag*20));
-	
-	
+
+
 	}
 
 document.getElementById("age").innerHTML=ag+" equivalent human age";
@@ -743,7 +745,7 @@ ra=Math.random();
 ra=(Math.floor(ra*7));
 var races=["human","half-orc","half-elf","dwarf","elf","gnome","halfling"];
 
-document.getElementById("race").innerHTML=races[ra];
+document.getElementById("race").innerHTML=capitalise(races[ra]);
 
 while(v<6){
 
@@ -752,7 +754,7 @@ l=Math.random();
 l=(Math.ceil(l*6));
 return(l);
 }
- 
+
 f=roll();
 t=roll();
 x=roll();
@@ -765,7 +767,7 @@ n=t+x+e;
 v++;
 
 		if(v==1){
-		
+
 			if (races[ra]=="half-orc"){
 				n=n+2;
 				}
@@ -781,27 +783,27 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n-2;
 			}
-			
+
 			if(ag>=70){
 			n=n-3;
 			}
 
 
 
-		Strength=n;	
+		Strength=n;
 		}
 		else if(v==2){
-		
-		
+
+
 			if (races[ra]=="elf"){
 				n=n+2;}
 			else if (races[ra]=="halfling"){
 				n=n+2;}
 			else if (races[ra]=="human"){
 			n=n+1;
-		}	
+		}
 		else{}
-			
+
 
 			if(ag>=35&&ag<53){
 			n=n-1;
@@ -810,15 +812,15 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n-2;
 			}
-			
+
 			if(ag>=70){
 			n=n-3;
 			}
 
-		Dexterity=n;	
+		Dexterity=n;
 		}
 		else if(v==3){
-		
+
 		if (races[ra]=="half-orc"){
 			n=n+1;
 		}
@@ -836,17 +838,17 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n-2;
 			}
-			
+
 			if(ag>=70){
 			n=n-3;
 			}
 
-		
+
 		Constitution=n;
 		}
-		
+
 		else if(v==4){
-		
+
 			if (races[ra]=="gnome"){
 				n=n+2;
 			}
@@ -862,7 +864,7 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n+2;
 			}
-			
+
 			if(ag>=70){
 			n=n+3;
 			}
@@ -872,8 +874,8 @@ v++;
 			Intelligence=n;
 		}
 		else if(v==5){
-		
-		
+
+
 			if (races[ra]=="human"){
 			n=n+1;
 			}
@@ -886,7 +888,7 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n+2;
 			}
-			
+
 			if(ag>=70){
 			n=n+3;
 			}
@@ -894,7 +896,7 @@ v++;
 			Wisdom=n;
 		}
 		else{
-		
+
 		if (races[ra]=="half-elf"){
 			n=n+2;
 		}
@@ -910,7 +912,7 @@ v++;
 			if(ag>=53&&ag<70){
 			n=n+2;
 			}
-			
+
 			if(ag>=70){
 			n=n+3;
 			}
@@ -929,30 +931,30 @@ v++;
 		Strength=n;
 			if (races[ra]=="half-orc"){
 				n=n+2;
-				
+
 				}
 			else if (races[ra]=="human"){
 			n=n+1;
 			}
 			else{}
-		Strength=n;	
+		Strength=n;
 		}
 		else if(v==2){
-		
-		
+
+
 			if (races[ra]=="elf"){
 				n=n+2;}
 			else if (races[ra]=="halfling"){
 				n=n+2;}
 			else if (races[ra]=="human"){
 			n=n+1;
-		}	
+		}
 		else{}
-			
-		Dexterity=n;	
+
+		Dexterity=n;
 		}
 		else if(v==3){
-		
+
 		if (races[ra]=="half-orc"){
 			n=n+1;
 		}
@@ -962,12 +964,12 @@ v++;
 		n=n+1;
 		}
 		else{}
-		
+
 		Constitution=n;
 		}
-		
+
 		else if(v==4){
-		
+
 			if (races[ra]=="gnome"){
 				n=n+2;
 			}
@@ -978,8 +980,8 @@ v++;
 			Intelligence=n;
 		}
 		else if(v==5){
-		
-		
+
+
 			if (races[ra]=="human"){
 			n=n+1;
 			}
@@ -987,7 +989,7 @@ v++;
 			Wisdom=n;
 		}
 		else{
-		
+
 		if (races[ra]=="half-elf"){
 			n=n+2;
 		}
@@ -1004,35 +1006,35 @@ v++;
 else if (x<=t && x<=e && x<=f){
 n=t+e+f;
 v++;
-	
+
 		if(v==1){
 		Strength=n;
 			if (races[ra]=="half-orc"){
 				n=n+2;
-				
+
 				}
 			else if (races[ra]=="human"){
 			n=n+1;
 			}
 			else{}
-		Strength=n;	
+		Strength=n;
 		}
 		else if(v==2){
-		
-		
+
+
 			if (races[ra]=="elf"){
 				n=n+2;}
 			else if (races[ra]=="halfling"){
 				n=n+2;}
 			else if (races[ra]=="human"){
 			n=n+1;
-		}	
+		}
 		else{}
-			
-		Dexterity=n;	
+
+		Dexterity=n;
 		}
 		else if(v==3){
-		
+
 		if (races[ra]=="half-orc"){
 			n=n+1;
 		}
@@ -1042,12 +1044,12 @@ v++;
 		n=n+1;
 		}
 		else{}
-		
+
 		Constitution=n;
 		}
-		
+
 		else if(v==4){
-		
+
 			if (races[ra]=="gnome"){
 				n=n+2;
 			}
@@ -1058,8 +1060,8 @@ v++;
 			Intelligence=n;
 		}
 		else if(v==5){
-		
-		
+
+
 			if (races[ra]=="human"){
 			n=n+1;
 			}
@@ -1067,7 +1069,7 @@ v++;
 			Wisdom=n;
 		}
 		else{
-		
+
 		if (races[ra]=="half-elf"){
 			n=n+2;
 		}
@@ -1093,12 +1095,18 @@ p=Math.random();
 p=(Math.floor(p*9));
 
 var alignment=["lawful good","neutral good","chaotic good","lawful neutral","true neutral","chaotic neutral","lawful evil", "neutral evil", "chaotic evil"];
+var specAlignment=capitalise(alignment[p])
+function secondcap(good){
+if (specAlignment.indexOf(good)!=-1){
+specAlignment=specAlignment.slice(0,specAlignment.indexOf(good))+capitalise(specAlignment.slice(specAlignment.indexOf(good)));
+}}
+secondcap("good")
+secondcap("evil")
+secondcap("neutral")
 
-document.getElementById("al").innerHTML=alignment[p];
+document.getElementById("al").innerHTML=specAlignment;
 
 var classes=["Strength","Dexterity","Constitution", "Wisdom", "Intelligence", "Charisma"];
-
-
 
 
 var r="0";
@@ -1110,7 +1118,7 @@ if(Strength>=15){
 var is;
 is=Math.random();
 is=(Math.floor(is*7));
-	
+
 var	FLevel=Strength-14+is;
 
 
@@ -1137,21 +1145,21 @@ if (Dexterity>=15){
 var id;
 id=Math.random();
 id=(Math.floor(id*7));
-	
+
 var	RLevel=Dexterity-14+id;
-	
-	
+
+
 
 r=1;
 added.push("rogue");
 }
 if (Constitution>=15){
-	
-	
+
+
 	var ic;
 ic=Math.random();
 ic=(Math.floor(ic*7));
-	
+
 var	CLevel=Constitution-14+ic;
 var conclass;
 
@@ -1159,7 +1167,7 @@ if (alignment[p]=="lawful good"){
 conclass="paladin";}
 else{
 	conclass="barbarian";
-	
+
 	}
 
 
@@ -1173,7 +1181,7 @@ if (Wisdom>=15){
 		var iw;
 iw=Math.random();
 iw=(Math.floor(iw*7));
-	
+
 var	WLevel=Wisdom-14+iw;
 
 var wisclass;
@@ -1184,10 +1192,10 @@ if (half2==1){
 wisclass="cleric";}
 else{
 	wisclass="druid";
-	
+
 	}
-	
-	
+
+
 
 r=1;
 added.push(wisclass);
@@ -1197,16 +1205,16 @@ if (Intelligence>=15){
 var ii;
 ii=Math.random();
 ii=(Math.floor(ii*7));
-	
+
 var	ILevel=Intelligence-14+ii;
-	
-	
+
+
 
 r=1;
 added.push("wizard");
 }
 if (Charisma>=15){
-	
+
 var ich;
 ich=Math.random();
 ich=(Math.floor(ich*7));
@@ -1229,7 +1237,7 @@ r=1;
 added.push(chaclass);
 }
 if (r==0){
-	
+
 var ih;
 ih=Math.random();
 ih=(Math.floor(ih*7));
@@ -1253,48 +1261,48 @@ var thing
 if(firstclass=="rogue")
 {
 	thing=Dexterity;
-	
+
 	}
 
 else if(firstclass=="monk"||firstclass=="fighter")
 {
 	thing=Strength;
-	
+
 	}
 
 else if(firstclass=="paladin"||firstclass=="barbarian")
 {
 	thing=Constitution;
-	
+
 	}
 
 else if(firstclass=="druid"||firstclass=="cleric")
 {
 	thing=Wisdom;
-	
+
 	}
 
 else if(firstclass=="wizard")
 {
 	thing=Intelligence;
-	
+
 	}
 
 else if(firstclass=="bard"||firstclass=="sorcerer")
 {
 	thing=Charisma;
-	
+
 	}
-	
+
 	else{thing=15;}
-	
-	
+
+
 thing=thing-14;
 
 var level=Math.round((((ag-10)/6)+thing));
 
 
-document.getElementById("class").innerHTML=document.getElementById("class").innerHTML+"<br /> "+added[firstclass]+" level "+level;
+document.getElementById("class").innerHTML=document.getElementById("class").innerHTML+"<br /> "+capitalise(added[firstclass])+" Level "+level;
 
 //if the  person's age is above 35 or maybe 40, we'll add an additional class where they can have um another class with a certain lesser amount of levels I guess.
 
@@ -1309,21 +1317,21 @@ var objpronoun;
 var posspronoun;
 var reflexpronoun;
 
-if(m<75){ 
+if(m<75){
 subjpronoun="she";
 objpronoun="her";
 posspronoun="her";
 reflexpronoun="herself";
 }
 
-if(m>=75&&m<125){ 
+if(m>=75&&m<125){
 subjpronoun="they";
 objpronoun="them";
 posspronoun="their";
 reflexpronoun="themselves";
 }
 
-if(m>=125){ 
+if(m>=125){
 subjpronoun="he";
 objpronoun="him";
 posspronoun="his";
@@ -1333,7 +1341,7 @@ var male=0;
 
 if(m>100){
 	male=1;
-	
+
 	}
 
 document.getElementById("arrow").style.marginLeft=m+"px";
@@ -1366,9 +1374,9 @@ var nam2;
 nam2=Math.random();
 nam2=(Math.floor(nam2*namebits.length));
 
-firstname=namebits[nam]+namebits[nam2];
+firstname=capitalise(namebits[nam]+namebits[nam2]);
 
-document.getElementById("fname").innerHTML= namebits[nam];
+document.getElementById("fname").innerHTML= capitalise(namebits[nam]);
 document.getElementById("fname").innerHTML=document.getElementById("fname").innerHTML+ namebits[nam2];
 
 
@@ -1384,21 +1392,21 @@ altname=Math.random();
 altname=(Math.floor(altname*100));
 
  var child;
- 
+
  if (male==1){
 	 child="son";
-	 
+
 	 }
 	 else{
-		child="daughter"; 
-		 
-		
+		child="daughter";
+
+
 		 }
 
 
 
 if (altname>90){
-	
+
 nam=Math.random();
 nam=(Math.floor(nam*153));
 
@@ -1407,12 +1415,12 @@ nam2=Math.random();
 nam2=(Math.floor(nam2*153));
 
 
-document.getElementById("lname").innerHTML=document.getElementById("lname").innerHTML+ namebits[nam2]+"s" +child;	
+document.getElementById("lname").innerHTML=document.getElementById("lname").innerHTML+ capitalise(namebits[nam2]+"s" +child);
 
-lastname=namebits[nam2]+"s"+child;
-	
+lastname=capitalise(namebits[nam2]+"s"+child);
+
 	}
-	
+
 	else{
 
 var last;
@@ -1424,17 +1432,17 @@ last2=Math.random();
 last2=(Math.floor(last2*87));
 
 
-document.getElementById("lname").innerHTML= lastbits[last];
+document.getElementById("lname").innerHTML= capitalise(lastbits[last]);
 if(last==last2){
 lastname=lastbits[last];
 
 } else{
 document.getElementById("lname").innerHTML=document.getElementById("lname").innerHTML+ lastbits[last2];
 
-lastname=lastbits[last]+lastbits[last2];
+lastname=capitalise(lastbits[last]+lastbits[last2]);
 
 }
-	
+
 
 var dyn;
 dyn=Math.random();
@@ -1448,17 +1456,19 @@ dy=(Math.floor(dy*3));
 
 if (dyn>85)
 { document.getElementById("lname").innerHTML=document.getElementById("lname").innerHTML+ " "+numbers[dy];
-	
-	
+
+
 
 	}
 
 	}
+
+
 
 var mon;
 mon=Math.random();
 mon=(Math.floor(mon*3));
-	
+
 
 var weh;
 weh=Math.random();
@@ -1466,18 +1476,18 @@ weh=Math.random();
 
 if(mon==0){
 	weh=(Math.floor(weh*3000));
-	
+
 	}
-	
+
 else if(mon==1){
 	weh=(Math.floor(weh*500));
-	
+
 	}
 else{
 	weh=(Math.floor(weh*50));
-	
+
 	}
-	
+
 var socialclass;
 if(weh<20){
 socialclass="abject poor";
@@ -1524,7 +1534,7 @@ if(weh>=2500){
 socialclass="royalty";
 }
 
-document.getElementById("money").innerHTML="social class: "+socialclass;
+document.getElementById("money").innerHTML="Social Class: "+titlecaps(socialclass);
 
 var summary=[];
 var withsummary=[]
@@ -1636,7 +1646,7 @@ sgcop=" are ";
 else{sgcop=" is ";}
 
 if (races[ra]!="human"){
-document.getElementById("proseintro").innerHTML=firstname+" "+lastname+ " is a" +age+" - if " +subjpronoun+" were human, "+subjpronoun+" would be approximately "+ag+" years of age. "+subjpronoun+" "+experience+" "+added[firstclass]+".";}
+document.getElementById("proseintro").innerHTML=firstname+" "+lastname+ " is a" +age+" - if " +subjpronoun+" were human, "+subjpronoun+" would be approximately "+ag+" years of age. "+capitalise(subjpronoun)+" "+experience+" "+added[firstclass]+".";}
 
 else{
 document.getElementById("proseintro").innerHTML=firstname+" "+lastname+ " is a" +age+" - " +subjpronoun+sgcop+ag+" years of age, and "+subjpronoun+" "+experience+" "+added[firstclass]+".";}
@@ -1660,14 +1670,14 @@ var verb;
 			verb=" ";
 		}else{
 			verb="s"
-			
+
 			}
 var verb2;
 		if(subjpronoun=="they"){
 			verb2=" ";
 		}else{
 			verb2="es"
-			
+
 			}
 
 var soctraits=[];
@@ -1708,7 +1718,7 @@ genderdesc=firstname+" has strong feelings about both being female and presentin
 same="women";
 opp="men";
 
-document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"female";
+document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Female";
 }
 
 
@@ -1720,7 +1730,7 @@ genderdesc=firstname+" presents as female, wearing feminine clothes and makeup a
 same="women";
 opp="men";
 summary.push("female");
-document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"female";
+document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Female";
 }
 
 if(m>=50&&m<75){
@@ -1731,7 +1741,7 @@ genderdesc=firstname+" presents as female, but doesn't tend to wear makeup or fe
 same="women";
 opp="men";
 summary.push("tomboy");
-document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"female";
+document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Female";
 }
 
 
@@ -1739,7 +1749,7 @@ if(m>=75&&m<100){
 
 phystraits.push("You can't tell by looking what gender this person is.");
 gender="";
-genderdesc="it's not really possible to detect which gender "+firstname+" considers themselves. they wear masculine clothes, at least.";
+genderdesc="It's not really possible to detect which gender "+firstname+" considers themselves. they wear masculine clothes, at least.";
 same="women";
 opp="men";
 summary.push("androgynous");
@@ -1751,7 +1761,7 @@ if(m>=100&&m<125){
 
 phystraits.push("You can't tell by looking what gender this person is.");
 gender="";
-genderdesc="it's not really possible to detect which gender "+firstname+" considers themselves, but they do appear to be wearing makeup.";
+genderdesc="It's not really possible to detect which gender "+firstname+" considers themselves, but they do appear to be wearing makeup.";
 same="men";
 opp="women";
 summary.push("androgynous");
@@ -1767,7 +1777,7 @@ gender="male";
 genderdesc=firstname+" presents as male, but he's pretty effeminate. he'd probably wear women's clothes.";
 same="men";
 opp="women";
-summary.push("effeminate");document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"male";
+summary.push("effeminate");document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Male";
 }
 
 if(m>=150&&m<175){
@@ -1778,7 +1788,7 @@ genderdesc=firstname+" presents as male. Depending on situation, he may play up 
 same="men";
 opp="women";
 summary.push("male");
-document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"male";
+document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Male";
 }
 
 
@@ -1790,7 +1800,7 @@ genderdesc=firstname+" is clearly very attached to being masculine, and attempts
 same="men";
 opp="women";
 summary.push("hypermasculine");
-document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"male";
+document.getElementById("stategender").innerHTML=document.getElementById("stategender").innerHTML+"Male";
 }
 
 
@@ -1848,7 +1858,7 @@ document.getElementById("heightarrow").style.marginLeft=hei+"px";
 var height;
 
 if (hei<25){
-	
+
 	phystraits.push("They are short for their gender and race.");
 	height="very short";
 	//summary.push("short");
@@ -1864,7 +1874,7 @@ negtraits.push(height);
 
 
 if (hei>=50&&hei<150){
-	
+
 	phystraits.push("They are of medium height for their gender and race.");
 	height="of medium height"
 	}
@@ -1872,7 +1882,7 @@ if (hei>=50&&hei<150){
 	if (hei>=150&&hei<175){
 	height="tall";
 	phystraits.push("They are tall for their gender and race.");
-	
+
 	//summary.push("tall");
 postraits.push(height);
 	}
@@ -1895,7 +1905,7 @@ document.getElementById("musarrow").style.marginLeft=mus+"px";
 var muscles;
 
 if (mus>=150){
-	
+
 	phystraits.push("This person is hugely swole");
 	muscles="extremely muscular"
 	//summary.push("buff as hell");
@@ -1934,7 +1944,7 @@ negtraits.push("feeble-limbed");
 }
 
 if (mus<50&&mus>=25){
-	
+
 	phystraits.push("This person clearly doesn't work out.");
 	muscles="not at all muscular";
 	//summary.push("weak-limbed");
@@ -1955,7 +1965,7 @@ fat=50-(Math.random()*50);
 
 if(fat<25&&weh>100){
 	fat=fat+25;
-	
+
 	}
 
 if(fat<0){fat=0;} if(fat>200){fat=200;}
@@ -1965,7 +1975,7 @@ document.getElementById("fatarrow").style.marginLeft=fat+"px";
 var weight;
 
 if (fat>=175){
-	
+
 	phystraits.push("Is highly overweight.");
 weight=subjpronoun+ sgcop+" morbidly obese and";
 	//summary.push("hugely fat");
@@ -1973,7 +1983,7 @@ negtraits.push("hugely fat");
 
 	}
 if (fat>=150&& fat<175){
-	
+
 	phystraits.push("This person is quite overweight.");
 	weight=subjpronoun+ sgcop+" quite overweight and";
 //summary.push("fat");
@@ -1982,7 +1992,7 @@ negtraits.push("fat");
 	}
 
 if (fat>=125&& fat<150){
-	
+
 	phystraits.push("This person definitely has some fat on them.");
 	weight="there's definitely some fat on "+posspronoun+" body, which is otherwise "
 
@@ -1992,7 +2002,7 @@ negtraits.push("fat-ish");
 	}
 
 if (fat>=100&& fat<125){
-	
+
 	phystraits.push("This person is a little pudgy.");
 	weight=subjpronoun+ sgcop+" a bit pudgy and ";
 
@@ -2000,17 +2010,17 @@ if (fat>=100&& fat<125){
 
 negtraits.push("pudgy");
 	}
-	
+
 	if (fat>=50&& fat<100){
-	
+
 	phystraits.push("This person is somewhat thin.");
 	weight=subjpronoun+ sgcop+" of medium weight and ";
-	
+
 
 }
-	
+
 	if (fat>=20&& fat<50){
-	
+
 	phystraits.push("This person is slim, they have very little fat on them.");
 	weight="there is very little fat on "+posspronoun+ " body , which is otherwise ";
 	//summary.push("skinny");
@@ -2019,7 +2029,7 @@ negtraits.push("pudgy");
 	}
 
 	if (fat<20){
-	
+
 	phystraits.push("This person is unhealthily thin.");
 	weight=subjpronoun+ sgcop+" unhealthily thin and ";
 //summary.push("starving");
@@ -2035,20 +2045,20 @@ negtraits.push("starving");
 var striveverb;
 if(subjpronoun=="they"){
 	striveverb="strive";
-	
+
 	}
 	else{
-		
+
 		striveverb="strives";
 		}
-		
+
 		var tendverb;
 if(subjpronoun=="they"){
 	tendverb="tend";
-	
+
 	}
 	else{
-		
+
 		tendverb="tends";
 		}
 
@@ -2061,24 +2071,24 @@ if (dom>150){
 	dominance= striveverb+" for dominance";
 
 	}
-	
+
 	if (dom<=150&&dom>100){
-	
+
 	dominance= tendverb+ " a little more towards dominance";
 	}
-	
+
 	if (dom<=100&&dom>=50){
-	
+
 	dominance= tendverb+ " a little more towards submission";
 	}
-		
+
 if (dom<50){
 	soctraits.push("They are inclined to be submissive to others.");
-	
+
 	dominance=sgcop+"inclined to be submissive towards others";
 
-	
-	
+
+
 	}
 
 
@@ -2086,15 +2096,15 @@ var clothes;
 var aes=Math.floor(Math.random()*200);
 document.getElementById("aesarrow").style.marginLeft=aes+"px";
 if (aes>150){
-	
+
 	psychtraits.push("This person has a artistic sense of aesthetics.");
-	
+
 	}
 
 	if (aes<50){
-	
+
 	psychtraits.push("This person couldn't create something beautiful even by accident.");
-	
+
 	}
 
 var care=Math.floor(Math.random()*200);
@@ -2114,18 +2124,18 @@ else{wearverb="wears";}
 
 //ugly intricate
 if (care>=150&&aes<50){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes have clearly been well-tended to, and are very neat and clean, the colours and style are horribly chosen. the effect is quite unpleasant."
 //summary.push("neat but horribly dressed");
-negtraits.push("neatly but horribly dressed");	
+negtraits.push("neatly but horribly dressed");
 	}
 
 //ugly neat
 
 
 if (care<150&&care>=100&&aes<50){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes are relatively neat, the colours and style are horribly chosen. "+subjpronoun+" "+ lookverb+" pretty bad."
 	//summary.push("neat but badly dressed");
@@ -2134,7 +2144,7 @@ negtraits.push("neatly but badly dressed");
 	}
 //ugly tatty
 if (care<100&&care>=50&&aes<50){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are a bit tatty and very ugly."
 	//summary.push("messy and horribly dressed");
@@ -2145,7 +2155,7 @@ negtraits.push("messily and horribly dressed");
 
 //ugly, worn
 	if (care<50&&aes<50){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+" wears ugly clothes, in unpleasant colours, which are stained and worn."
 		//summary.push("messy and horribly dressed");
@@ -2157,13 +2167,13 @@ negtraits.push("messily and horribly dressed");
 //beautiful, intricate
 
 if (care>=150&&aes>=150){
-	
+
 	phystraits.push("They are dressed fabulously.");
 
 	clothes=firstname+" wears artistically well-chosen, intricate clothes, which are perfectly clean - "+subjpronoun+" "+lookverb+" fabulous.";
 
 	//summary.push("fabulously dressed");
-	
+
 postraits.push("fabulously dressed");
 }
 
@@ -2172,7 +2182,7 @@ postraits.push("fabulously dressed");
 
 
 if (care<150&&care>=100&&aes>=150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are artistically well chosen and neat."
 	//summary.push("beautifully dressed");
@@ -2181,7 +2191,7 @@ postraits.push("beautifully dressed");
 //beautiful,tatty
 
 if (care<100&&care>=50&&aes>=150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes are a little old and poorly cared for, they are artistically well chosen and beautiful."
 	//summary.push("messily but fabulously dressed");
@@ -2192,7 +2202,7 @@ postraits.push("messily but fabulously dressed");
 
 //beautiful, worn
 if (care<50&&aes>=150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes are worn messily and with little care, "+posspronoun+" excellent sense of aesthetics shines through. "+subjpronoun+" "+ lookverb+"  wonderful."
 
@@ -2200,14 +2210,14 @@ if (care<50&&aes>=150){
 
 
 postraits.push("messily but fabulously dressed");
-	
+
 	}
 
 
 //conservative, worn
 
 if (care<50&&aes>=50&&aes<100){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are stained, worn, and conservatively chosen."
 	//summary.push("messy and conservatively dressed");
@@ -2220,7 +2230,7 @@ negtraits.push("messily and conservatively dressed");
 //conservative, tatty
 
 if (care<100&&care>=50&&aes>=50&&aes<100){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are a bit tatty and conservatively chosen."
 	//summary.push("messy and conservatively dressed");
@@ -2231,7 +2241,7 @@ if (care<100&&care>=50&&aes>=50&&aes<100){
 //conservative, neat
 
 if (care<150&&care>=100&&aes>=50&&aes<100){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are neat but conservatively chosen."
 	//summary.push("neatly and conservatively dressed");
@@ -2242,7 +2252,7 @@ postraits.push("neatly and conservatively dressed");
 //conservative, intricate
 
 if (care>=150&&aes>=50&&aes<100){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes=firstname+"'s clothes are intricate and well-cared-for but conservatively chosen."
 	//summary.push("perfectly but conservatively dressed");
@@ -2253,7 +2263,7 @@ postraits.push("perfectly but conservatively dressed");
 //nice, worn
 
 if (care<50&&aes>=100&&aes<150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes are worn messily and with little care, they are well-chosen, and look good."
 //summary.push("messy but well dressed");
@@ -2262,7 +2272,7 @@ postraits.push("messily but well dressed");
 //nice, tatty
 
 if (care<100&&care>=50&&aes>=100&&aes<150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes="although "+firstname+"'s clothes are a bit tatty, they are well-chosen, and look good."
 
@@ -2272,7 +2282,7 @@ postraits.push("messily but well dressed");
 
 //nice, neat.
 if (care<150&&care>=100&&aes>=100&&aes<150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes= firstname+"'s clothes are clean, neat, and well-chosen. "+subjpronoun+" " +lookverb+ " good."
 //summary.push("neat and well dressed");
@@ -2282,7 +2292,7 @@ postraits.push("neatly and well dressed");
 	}
 //nice, intricate
 if (care>=150&&aes>=100&&aes<150){
-	
+
 	phystraits.push("Clothes are messy and worn carelessly.");
 	clothes= firstname+"'s clothes are intricate, perfectly clean and well-chosen. "+subjpronoun+" " +lookverb+ " very nice."
 
@@ -2302,29 +2312,29 @@ document.getElementById("libarrow").style.marginLeft=lib+"px";
 var libido;
 if (ag<15){
 	libido="but"+sgcop+"not sure about the sex."
-	
+
 	}
-	
+
 	else{
 if (lib<20){
-	
+
 	phystraits.push("This person is not interested in anyone's junk.");
 	libido="and"+sgcop+"not interested in the sex."
 	}
-	
+
 	if (lib>=20&&lib<=150){
 		libido="and"+sgcop+"open to the sex."
-		
-		
+
+
 		}
 
 	if (lib>150){
-	
+
 	phystraits.push("This person really hopes any attractive person is up for it.");
 	libido="and"+sgcop+"really interested in doing the sex."
 
 	//summary.push("horny");
-	negtraits.push("horny");	
+	negtraits.push("horny");
 
 }
 
@@ -2338,7 +2348,7 @@ if(hair>100&&m>175){
 }
 	if(hair<100&&m<25){
 	hair=hair+(100-m);
-	
+
 	}
 
 if(hair<0){hair=0;} if(hair>200){hair=200;}
@@ -2347,7 +2357,7 @@ document.getElementById("hairarrow").style.marginLeft=hair+"px";
 
 var hairlength;
 if (hair<15){
-	
+
 	phystraits.push("They're basically bald.");
 hairlength="bald";
 	summary.push("bald");
@@ -2356,7 +2366,7 @@ hairlength="bald";
 else{
 
 if (hair>=15&&hair<25){
-	
+
 	phystraits.push("Short hair, in a masculine cut.");
 	"Short hair, in a masculine cut."
 	hairlength="short, in a masculine cut";
@@ -2364,7 +2374,7 @@ if (hair>=15&&hair<25){
 	}
 
 if (hair>=25&&hair<50){
-	
+
 	phystraits.push("Their hair is cut short but has gone a while without a haircut.");
 	hairlength="short, but growing out";
 
@@ -2373,20 +2383,20 @@ withsummary.push("short");
 
 
 if (hair>=50&&hair<100){
-	
+
 	phystraits.push("Their hair is chin length.");
 	hairlength="chin-length";
 withsummary.push("chin-length");
 	}
 if (hair>=100&&hair<150){
-	
+
 	phystraits.push("Their hair is quite long, although it may be bound back.");
 	hairlength="long";
 withsummary.push("long");
 	}
 
 	if (hair>=150){
-	
+
 	phystraits.push("Their hair is very long, and, if it is not bound back, falls down to thigh level.");
 	hairlength=" very long. If it is not bound back it falls almost to thigh level";
 withsummary.push("long-ass");
@@ -2398,29 +2408,29 @@ var curl=Math.floor(Math.random()*200);
 document.getElementById("curlarrow").style.marginLeft=curl+"px";
 
 if (curl<50){
-	
+
 	phystraits.push("Hair is straight");
 	curly="straight";
 
 withsummary.push("straight");
 	}
-	
+
 	if (curl>=50 && curl<100){
-	
+
 	phystraits.push("Hair is wavy");
 	curly="wavy";
 withsummary.push("wavy");
 	}
-	
+
 	if (curl>=100 && curl<150){
-	
+
 	phystraits.push("Hair is curly");
 	curly="curly";
 withsummary.push("curly");
 	}
 
 	if(curl>=150){
-	
+
 	phystraits.push("Hair is tightly curled");
 	curly="tightly curled";
 withsummary.push("tightly curled");
@@ -2440,24 +2450,24 @@ withsummary.push(haircolor+" hair");
 else{
 
 if (color2>150){
-	
+
 	phystraits.push("Light Hair.");
-	
+
 	}
 
 	if (color2<50){
-	
+
 	phystraits.push("Dark Hair");
-	
+
 	}
 
 var redi=Math.floor(Math.random()*200);
 document.getElementById("redarrow").style.marginLeft=redi+"px";
 
 if (redi>150){
-	
+
 	phystraits.push("Hair is red.");
-	
+
 	}
 
 if(hair!="bald"){
@@ -2545,28 +2555,28 @@ document.getElementById("confarrow").style.marginLeft=conf+"px";
 
 
 if (conf>150){
-	
+
 	soctraits.push("Easily resorts to physical violence.");
 	selfesteem=" super high";
 //summary.push("self-assured");
 postraits.push("self-assured");
 	}
-	
+
 	if (conf>=50&&conf<100){
-		
+
 		selfesteem="pretty low";
-		
+
 		}
-		
+
 			if (conf>=100&&conf<=150){
-		
+
 		selfesteem="pretty high";
-		
+
 		}
 
 
 	if (conf<50){
-	
+
 	selfesteem=" super low";
 	//summary.push("insecure");
 	negtraits.push("insecure");
@@ -2583,54 +2593,54 @@ if (vio>100){
 
 if(vio<0){vio=0;} if(vio>200){vio=200;}
 	}
-	
+
 document.getElementById("vioarrow").style.marginLeft=vio+"px";
 var resortverb;
 
 if(subjpronoun=="they"){
-	
+
 	resortverb="resort";
-	
+
 	}
-	
+
 	else{resortverb="resorts";}
-	
+
 	var resistverb;
-	
+
 	if(subjpronoun=="they"){
-	
+
 	resistverb="resist";
-	
+
 	}
-	
+
 	else{resistverb="resists";}
 var violence;
 
 if (vio>150){
-	
+
 	soctraits.push("Easily resorts to physical violence.");
 	violence=" easily "+resortverb +" to physical violence rather than discussion"
 //summary.push("violent");
 negtraits.push("violent");
 	}
-	
+
 	if (vio>=50&&vio<100){
-		
+
 		violence=" generally "+ resistverb +" the temptation of physical violence"
-		
+
 		}
-		
+
 			if (vio>=100&&vio<=150){
-		
+
 		violence=" can be tempted to physical violence"
-		
+
 		}
 
 
 	if (vio<50){
-	
+
 	soctraits.push("Very unlikely to resort to physical violence.");
-	
+
 	violence=sgcop+"very unlikely to resort to physical violence"
 	//summary.push("non-violent");
 postraits.push("non-violent");
@@ -2648,28 +2658,28 @@ document.getElementById("socarrow").style.marginLeft=soc+"px";
 
 var sociable;
 if (soc>150){
-	
+
 	soctraits.push("A social butterfly.");
 	sociable="a social butterfly";
 	//summary.push("sociable");
 postraits.push("sociable");
 	}
-	
+
 	if (soc>=100&&soc<=150){
-	
-	
+
+
 	sociable="pretty gregarious";
 	}
-	
-	
+
+
 		if (soc>=50&&soc<100){
-	
-	
+
+
 	sociable="somewhat reclusive";
 	}
 
 	if (soc<50){
-	
+
 	soctraits.push("A hermit. Avoids socialising.");
 	sociable="a hermit";
 //summary.push("anti-social")
@@ -2683,42 +2693,42 @@ if (cyn>100){
 	}
 else{
 	cyn=cyn+((Wisdom-10)*5);
-	
+
 	}
 if(cyn<0){cyn=0;} if(cyn>200){cyn=200;}
 var expectverb;
 
 if (subjpronoun=="they"){
 	expectverb="expect";
-	
+
 	}else{
-		
+
 		expectverb="expects";
-		
+
 		}
 document.getElementById("cynarrow").style.marginLeft=cyn+"px";
 var cynicism;
 if (cyn>150){
-	
+
 	psychtraits.push("A cynic. Expects the worst of people.");
 	cynicism="a cynic - "+subjpronoun+" "+expectverb+" the worst of people.";
 //summary.push("cynical");
 negtraits.push("cynical");
 	}
-	
+
 	if (cyn>=50&&cyn<=100){
-	
+
 	cynicism="pretty idealistic."
 	}
-	
+
 	if (cyn>100&&cyn<=150){
-	
+
 	cynicism="pretty cynical."
 	}
 
 	if (cyn<50){
-	
-	
+
+
 	cynicism="a committed idealist."
 
 //summary.push("idealistic");
@@ -2734,102 +2744,102 @@ if(confl<0){confl=0;} if(confl>200){confl=200;}
 var shyverb;
 
 if (subjpronoun=="they"){
-	
+
 	shyverb="shy";
 	}else{shyverb="shies";}
 
 document.getElementById("conflictarrow").style.marginLeft=confl+"px";
 if (confl>150){
-	
+
 	soctraits.push("Never " +shyverb+ " away from interpersonal conflict, seeking to out every disagreement early.");
 	conflict="never " +shyverb+ " away from interpersonal conflict, seeking to out every disagreement early"
 
 //summary.push("oppositional");
 negtraits.push("oppositional");
 	}
-	
+
 var avoidverb;
 
 if (subjpronoun=="they"){
-	
+
 	avoidverb="avoid";
 	}else{avoidverb="avoids";}
 
 	if (confl<50){
-	
+
 	soctraits.push(avoidverb+ " a conflict for as long as possible, stifling any disagreement.");
-	
+
 	conflict=avoidverb+ " a conflict for as long as possible, stifling any disagreement"
 
  //summary.push("fawning");
 
 negtraits.push("fawning towards authority");
 }
-	
+
 	var preferverb;
 
 if (subjpronoun=="they"){
-	
+
 	preferverb="prefer";
 	}else{preferverb="prefers";}
-	
+
 	if (confl>=50&&confl<=100){
-	
+
 	conflict=preferverb+" to avoid a conflict"
-	
+
 	}
-	
+
 	if (confl>100&&confl<=150){
-	
+
 	conflict=preferverb+" to initiate a conflict"
-	
+
 	}
 var skin1=Math.floor(Math.random()*200);
 document.getElementById("skinarrow").style.marginLeft=skin1+"px";
 
 if (skin1>=175){
-	
+
 	phystraits.push("Has light skin.");
 	skin="ghostly pale";
-	
+
 	}
 if (skin1<175&&skin1>=150){
-	
+
 	phystraits.push("Has light skin.");
 	skin="pale";
-	
+
 	}
 
 if (skin1<150&&skin1>=125){
-	
+
 	phystraits.push("Has light skin.");
 	skin="tan brown";
-	
+
 	}
 
 if (skin1<125&&skin1>=75){
-	
+
 	phystraits.push("Has light skin.");
 	skin="mid brown";
-	
+
 	}
 
 
 	if (skin1>=50&&skin1<75){
-	
+
 	phystraits.push("Has dark skin");
 	skin="dark brown";
 	}
 
 	if (skin1>=25&&skin1<50){
-	
+
 	phystraits.push("Has dark skin");
 	skin=" very dark";
 	}
 
 
 	if (skin1<25){
-	
+
 	phystraits.push("Has dark skin");
 	skin="shiny dark";
 	}
@@ -2843,36 +2853,36 @@ var hyper=Math.floor(Math.random()*200);
 document.getElementById("hyperarrow").style.marginLeft=hyper+"px";
 
 if (hyper>150){
-	
+
 	psychtraits.push("Hyperactive.");
-	
+
 	energy="energetic.";
 	//summary.push("hyperactive");
 postraits.push("energetic");
 	}
 
 if (hyper<=150&&hyper>=100){
-	
-	
+
+
 	energy="not lacking in energy.";
-	
+
 	}
 
 if (hyper<100&&hyper>=50){
-	
-	
+
+
 	energy="fairly low in energy.";
-	
+
 	}
 
 	if (hyper<50){
-	
+
 	psychtraits.push("Low in energy, slow and considered.");
 	energy="low in energy, slow and considered in action.";
 
 	//summary.push("lethargic");
 negtraits.push("lethargic");
-	
+
 	}
 
 
@@ -2893,7 +2903,7 @@ document.getElementById("conscarrow").style.marginLeft=consc+"px";
 var conscientious;
 
 if (consc>150){
-	
+
 	psychtraits.push("Responsible, conscientious and diligent.");
 	conscientious=subjpronoun+sgcop+"particularly responsible, conscientious and diligent. ";
 //summary.push("diligent");
@@ -2902,17 +2912,17 @@ postraits.push("diligent");
 	}
 
 	else if (consc<50){
-	
+
 	psychtraits.push("Irresponsible, careless and lazy.");
 	conscientious=subjpronoun+sgcop+"particularly irresponsible, careless and lazy.";
 //summary.push("lazy");
 
 negtraits.push("lazy");
 	}
-	
+
 	else{
-		conscientious=" ";
-		
+		conscientious="";
+
 		}
 
 var ambition;
@@ -2925,23 +2935,23 @@ if (ambit>150){
 	ambition=subjpronoun+sgcop+"highly ambitious for "+particularmotivation+" ";
 	psychtraits.push("Highly ambitious.");
 //summary.push("ambitious");
-negtraits.push("ambitious for "+particularmotivation);	
+negtraits.push("ambitious for "+particularmotivation);
 	}
 
 if (ambit<=150&&ambit>=100){
 	ambition=subjpronoun+sgcop+"pretty ambitious for "+particularmotivation+" ";
 	psychtraits.push("Highly ambitious.");
-	
+
 	}
 
 	if(ambit>=50&&ambit<100){
-	
+
 	psychtraits.push("Unambitious.");
 	ambition=subjpronoun+sgcop+"not very ambitious"
-	
+
 	}
 	if(ambit<50){
-	
+
 	psychtraits.push("Unambitious.");
 	ambition=subjpronoun+sgcop+"completely unambitious"
 //summary.push("unambitious");
@@ -2954,24 +2964,24 @@ var calc=Math.floor(Math.random()*200);
 document.getElementById("calcarrow").style.marginLeft=calc+"px";
 
 if (calc>150){
-	
+
 	psychtraits.push("Emotional. A mess.");
 	emotions=" either not able or completely unwilling to control "+posspronoun+" emotions."
 //summary.push("super emotional");
-	
+
 
 negtraits.push("super emotional");
 }
 
 if (calc<=150&&calc>=100){
-	
+
 	psychtraits.push("Emotional. A mess.");
 	emotions=" definitely not afraid to demonstrate "+posspronoun+" emotions."
 	}
 
 
 if (calc<100&&calc>=50){
-	
+
 	psychtraits.push("Emotional. A mess.");
 	emotions=" generally pretty unemotional and calculating."
 	}
@@ -2979,7 +2989,7 @@ if (calc<100&&calc>=50){
 
 
 	if(calc<50){
-	
+
 	psychtraits.push("Calculating.");
 	emotions=" suppress"+verb2+" "+posspronoun+" emotions completely, approaching life in a calculating fashion."
 //summary.push("emotion-suppressing");
@@ -2994,60 +3004,60 @@ negtraits.push("emotion-suppressing");
 var beard2=Math.floor(Math.random()*200);
 if(beard2<0){beard2=0;} if(beard2>200){beard2=0;}
 if (m>100){
-	
+
 	document.getElementById("beardarrow").style.marginLeft=beard2+"px";
 
 if (ag<17){
 beard=subjpronoun+sgcop+"too young to have a beard.";
 }
-else{	
+else{
 if(beard2<125){
 phystraits.push("This person is clean-shaven.");
 beard=subjpronoun+" "+sgcop+" clean-shaven.";
-}	
+}
 
 if (beard2>=125 &&beard2<130){
-	
+
 	phystraits.push("Has a moustache.");
 	beard=subjpronoun+ " "+haveverb+" a glorious moustache.";
 withsummary.push(" a glorious moustache");
 	}
 
 if (beard2>=130 &&beard2<140){
-	
+
 	phystraits.push("Has a moustache.");
 	beard=subjpronoun+" "+haveverb+" a sleazy moustache.";
 withsummary.push(" a sleazy moustache");
 	}
 
 if (beard2>=140 &&beard2<150){
-	
+
 	phystraits.push("Has a goatee.");
 	beard=subjpronoun+" "+haveverb+" a goatee.";
 withsummary.push(" a goatee");
 	}
 
 if (beard2>=150 &&beard2<160){
-	
+
 	phystraits.push("Has a beard, but no moustache.");
 	beard=subjpronoun+" "+haveverb+" a beard with no moustache.";
 withsummary.push(" a beard but no moustache");
 	}
 
 	if(beard2>=160 && beard2<190){
-	
+
 	phystraits.push("Has a full beard.");
 	beard=subjpronoun+" "+ haveverb+ " a full beard.";
 withsummary.push(" a full beard");
 	}
 
 	if(beard2>=190){
-	
+
 	phystraits.push("Has a long-ass philosopher beard.");
 	beard=subjpronoun+" "+haveverb+" (or " +sgcop+ " aiming to grow) a long-ass philosopher beard.";
 withsummary.push(" a long-ass beard");
 	}
-	
+
 	}
 }
 
@@ -3056,7 +3066,7 @@ withsummary.push(" a long-ass beard");
 var mood=Math.floor(Math.random()*200);
 document.getElementById("moodarrow").style.marginLeft=mood+"px";
 
-	
+
 var temperament;
 
 if (mood<50){
@@ -3064,21 +3074,21 @@ if (mood<50){
 	temperament="moody and gloomy";
 withsummary.push("a gloomy temperament");
 	}
-	
+
 		if(mood<100&&mood>=50){
-	
+
 	psychtraits.push("Generally a positive person.");
 	temperament="a little gloomy";
 	}
-	
+
 		if(mood<=150&&mood>=100){
-	
+
 	psychtraits.push("Generally a positive person.");
 	temperament="reasonably happy";
 	}
 
 	if(mood>150){
-	
+
 	psychtraits.push("Generally a positive person.");
 	temperament="very cheerful";
 withsummary.push(" a cheerful temperament");
@@ -3089,7 +3099,7 @@ var anx=Math.floor(Math.random()*200);
 document.getElementById("anxarrow").style.marginLeft=anx+"px";
 
 if (anx<50){
-	
+
 	psychtraits.push("Laid back.");
 	giveashit="laid back.";
 //summary.push("laid back");
@@ -3109,7 +3119,7 @@ postraits.push("laid back");
 
 
 if(anx>150){
-	
+
 	psychtraits.push("Judgemental.");
 	giveashit="judgemental and uptight."
 //summary.push("uptight");
@@ -3120,42 +3130,42 @@ var placepreference=" ";
 var city=Math.floor(Math.random()*200);
 document.getElementById("cityarrow").style.marginLeft=city+"px";
 if (city<50&&soc>150){
-	
+
 	psychtraits.push("Country person.");
 	placepreference=firstname +" is a country person. everyone is just so friendly in the country! if "+subjpronoun+" "+sgcop+" in the city, "+subjpronoun+" hate"+verb+" it. ";
 	}
 
 	if(city>150&&soc>150){
-	
+
 	psychtraits.push("Country person.");
 	placepreference=firstname +" is a city person. there's so many people to talk to in the city! if "+subjpronoun+" "+sgcop+" in the country, "+subjpronoun+" hate"+verb+" it. "
-	
+
 	}
 
 if(city>150&&soc<50){
-	
+
 	psychtraits.push("Country person.");
 	placepreference=firstname +" is a city person. because everyone leaves you alone in the city. if "+subjpronoun+" "+sgcop+" in the country, "+subjpronoun+" hate"+verb+" it. "
-	
+
 	}
 
 
 if(city<50&&soc<50){
-	
+
 	psychtraits.push("Country person.");
 	placepreference=firstname +" is a country person. because in the country, there's nobody for miles around. if "+subjpronoun+" "+sgcop+" in the city, "+subjpronoun+" hate"+verb+" it. "
 
 
-	
+
 	}
 
 strange.push(placepreference);
-var courageous=" ";
+var courageous="";
 var courage=Math.floor(Math.random()*200);
 document.getElementById("couragearrow").style.marginLeft=courage+"px";
 
 if (courage<50){
-	
+
 	psychtraits.push("Craven and fearful.");
 	courageous=subjpronoun+" "+haveverb+" at least one major fear.";
 //summary.push("cowardly");
@@ -3163,7 +3173,7 @@ negtraits.push("cowardly");
 	}
 
 	if(courage>150){
-	
+
 	psychtraits.push("Courageous.");
 	courageous=subjpronoun+sgcop+"highly courageous.";
 //summary.push("courageous");
@@ -3187,7 +3197,7 @@ var group=Math.floor(Math.random()*200);
 document.getElementById("grouparrow").style.marginLeft=group+"px";
 
 if (group<100){
-	
+
 	soctraits.push("Focused on family or other social group.");
 	groupish=" "+grouptypes[grpchose]+"'s";
 	groupish2=" "+grouptypes[grpchose];
@@ -3195,7 +3205,7 @@ if (group<100){
 	}
 
 	if(group>=100){
-	
+
 	soctraits.push("Focused on individuals.");
 	groupish=posspronoun+" own";
 	groupish2=reflexpronoun;
@@ -3206,10 +3216,10 @@ var seeverb;
 
 if(subjpronoun=="they"){
 	seeverb="see";
-	
+
 	}else{
-		
-    seeverb="sees";		
+
+    seeverb="sees";
 		}
 
 var self=Math.floor(Math.random()*50);
@@ -3220,20 +3230,20 @@ if(alignment[p]=="lawful good" || alignment[p]=="chaotic good" || alignment[p]==
 else if(alignment[p]=="lawful evil" || alignment[p]=="chaotic evil" || alignment[p]=="neutral evil"){
 	var evilbal=0;
 	self=self+evilbal;
-	
+
 	}
-	
+
 else{
 	var neutralbal=Math.floor(Math.random()*100);
 	self=50+neutralbal;
-	
+
 	}
 var selfness;
 document.getElementById("selfarrow").style.marginLeft=self+"px";
 
 if (self<50){
-	
-	
+
+
 	selfness="selfish. "+ subjpronoun+" "+haveverb+" few problems with sacrificing everybody else, innocent or otherwise, to "+groupish+" benefit.";
 
 //moralsummary.push("other-sacrificing");
@@ -3241,16 +3251,16 @@ if (self<50){
 
 negtraits.push("other-sacrificing");
 	}
-	
+
 	if(self>=50&&self<100){
-		
+
 		selfness="selfish. "+ subjpronoun+" rarely "+seeverb+" a reason to give up "+groupish+" benefit for someone else.";
 		//moralsummary.push("selfish");
 negtraits.push("selfish");
 		}
-		
+
 		if(self>=100&&self<=150){
-		
+
 		selfness="selfless, in that "+ subjpronoun+" regularly "+seeverb+" reasons to give up "+groupish+" benefit for someone else.";
 		//moralsummary.push("un-selfish");
 
@@ -3259,7 +3269,7 @@ postraits.push("un-selfish");
 
 
 	if(self>150){
-	
+
 	soctraits.push("Sacrifices own benefit for others.");
 	selfness="selfless. "+subjpronoun+" will sacrifice "+posspronoun+" own benefit, and life, for an innocent person.";
 
@@ -3275,43 +3285,43 @@ var wantverb;
 
 if(subjpronoun=="they"){
 	wantverb="want";
-	
+
 	}else{
-		
-    wantverb="wants";		
+
+    wantverb="wants";
 		}
-	
+
 
 var empath=Math.floor(Math.random()*200);
 /*
 if(alignment[p]=="lawful evil" || alignment[p]=="chaotic evil" || alignment[p]=="neutral evil" && empath>150){
-	
+
 	empath=empath-(Math.random()*125);
-	
+
 	}*/
 document.getElementById("empatharrow").style.marginLeft=empath+"px";
 
 
 
 if (empath<50&&self<50){
-	
+
 	empathy=firstname+"'s low empathy makes it easier for "+objpronoun+" to do whatever "+subjpronoun+" need"+ verb+ " to. other people's pain is, also, a big perk.";
 //moralsummary.push("sociopathic");
 negtraits.push("sociopathic");
 	}
 	if (empath<100&&empath>=50&&self<50){
-	
+
 	empathy=firstname+" finds that twinges of empathy get in the way sometimes. other people's pain is usually pretty easy to deal with, though. also, sometimes hilarious.";
 	}
 		if (empath<150&&empath>=100&&self<50){
-	
+
 	empathy=firstname+" finds that empathy often gets in the way. however, it also makes it easier to manipulate others.";
 
 negtraits.push("manipulative");
 	}
 
 	if(empath>=150&&self<50){
-	
+
 	soctraits.push("Cannot help but empathise with everyone and anyone.");
 	empathy=firstname+" finds it very painful to hurt people, but "+subjpronoun+" know"+verb+" that it's necessary."
 //moralsummary.push("empathetic");
@@ -3319,25 +3329,25 @@ postraits.push("empathetic");
 
 	}
 	//////
-		
-	
+
+
 if (empath<50&&self<100&&self>=50){
-	
+
 	empathy=firstname+"'s low empathy makes it easier for "+objpronoun+" to do what "+subjpronoun+" need"+ verb+ " to do to keep "+groupish2+" safe.";
 //fmoralsummary.push("hard-hearted");
 negtraits.push("hard-hearted");
 	}
 	if (empath<100&&empath>=50&&self<100&&self>=50){
-	
+
 	empathy=firstname+" wishes that "+subjpronoun+" understood emotions better. it would make it easier to take care of "+groupish2+".";
 	}
 		if (empath<150&&empath>=100&&self<100&&self>=50){
-	
+
 	empathy=firstname+" is quite empathetic, although "+subjpronoun+ " prefer"+verb+" to focus on taking care of "+groupish2+".";
 	}
 
 	if(empath>=150&&self<100&&self>=50){
-	
+
 
 	empathy=firstname+" finds it very painful to hurt people for "+groupish+" sake, but "+subjpronoun+" know"+verb+" that it's necessary.";
 
@@ -3349,44 +3359,44 @@ postraits.push("empathetic");
 
 
 if (empath<50&&self<150&&self>=100){
-	
+
 	empathy=firstname+" finds other people's emotions just confusing. "+subjpronoun+" want"+verb+" to be nice to people, but it's hard to figure out what they need.";
 //moralsummary.push("autistic");
 negtraits.push("emotionally oblivious");
 
 	}
 	if (empath<100&&empath>=50&&self<150&&self>=100){
-	
+
 	empathy=firstname+" wishes that "+subjpronoun+" understood emotions better. it would make it easier to provide for others.";
 	}
 		if (empath<150&&empath>=100&&self<150&&self>=100){
-	
+
 	empathy=firstname+" is quite empathetic - "+ subjpronoun+sgcop+" happy to be able to help other people as well as  "+groupish2+".";
 	}
 
 	if(empath>=150&&self<150&&self>=100){
-	
+
 
 	empathy="it's very painful for "+firstname+" when " +subjpronoun+ " "+haveverb+" to hurt people for "+groupish+" sake. "+subjpronoun+" make"+verb+" sure to do it as little as possible.";
 	}
 ////////////
 
 if (empath<50&&self>=150){
-	
+
 	empathy=firstname+" basically ignores people's emotions as incomprehensible and tries to do good in other ways.";
 //moralsummary.push("autistic");
 negtraits.push("emotionally oblivious");
 	}
-	
+
 if (empath<100&&empath>=50&&self>=150){
-	
+
 	empathy="even though "+firstname+" finds other people's emotions pretty confusing, "+subjpronoun+" "+haveverb+" worked very hard to figure out how to help people anyway."
 //moralsummary.push("autistic");
 negtraits.push("emotionally oblivious");
 
 	}
 		if (empath<150&&empath>=100&&self>=150){
-	
+
 	empathy=firstname+"'s unfailing empathy tells "+objpronoun+" exactly where "+subjpronoun+" need"+verb+ " to go.";
 //moralsummary.push("empathetic");
 postraits.push("empathetic");
@@ -3394,7 +3404,7 @@ postraits.push("empathetic");
 	}
 
 	if(empath>=150&&self>=150){
-	
+
 
 	empathy=firstname+" finds it hard to hurt even the most disgustingly malevolent people and does so as little as possible.";
 
@@ -3406,9 +3416,9 @@ var generosity;
 
 var greed=Math.floor(Math.random()*200);
 /*if(alignment[p]=="lawful evil" || alignment[p]=="chaotic evil" || alignment[p]=="neutral evil" && greed>150){
-	
+
 	greed=greed-Math.floor(Math.random()*125);
-	
+
 	}*/
 document.getElementById("greedarrow").style.marginLeft=greed+"px";
 
@@ -3429,21 +3439,21 @@ negtraits.push("avaricious");
 ////evil
 
 if (greed<75&&self<50){
-	
+
 	soctraits.push("Hoards wealth, stingy and avaricious.");
 	generosity=subjpronoun+" love"+verb+" money, hoard"+verb+" wealth. bathe"+verb+" in it.";
 	}
 
 
 if (greed>=75&&greed<=125&&self<50){
-	
+
 
 	generosity=subjpronoun+" "+donotverb+" really care about money. gain it, lose it, none of that really matters, as long as "+groupish3+" is doing well.";
 	}
 
 
 if (greed>125&&self<50){
-	
+
 	generosity=firstname+" is very generous. mainly because giving money to others is a great way to get them to do what you want. plus, it's so nice to be liked.";
 	}
 
@@ -3451,82 +3461,82 @@ if (greed>125&&self<50){
 //////kind of a dick
 
 if (greed<75&&self>=50&&self<=100){
-	
+
 	soctraits.push("Hoards wealth, stingy and avaricious.");
 	generosity=subjpronoun+" love"+verb+" money, hoard"+verb+" wealth. bathe"+verb+" in it.";
 	}
 
 
 if (greed>=75&&greed<=125&&self>=50&&self<=100){
-	
+
 
 	generosity=subjpronoun+"  "+donotverb+" really care about money. gain it, lose it, none of that really matters, as long as "+groupish3+" is doing well.";
 	}
 
 
 if (greed>125&&self>=50&&self<=100){
-	
+
 	generosity=firstname+" is very generous. mainly because giving money to others is a great way to get what you need. plus, it's nice to be liked.";
 	}
 
 //////kind of nice
 if (greed<75&&self>=100&&self<=150){
-	
+
 	soctraits.push("Hoards wealth, stingy and avaricious.");
 	generosity=subjpronoun+" love"+verb+" money, hoard"+verb+" wealth. bathe"+verb+" in it.";
 	}
 
 
 if (greed>=75&&greed<=125&&self>=100&&self<=150){
-	
+
 
 	generosity=subjpronoun+" "+donotverb+" really care about money. gain it, lose it, none of that really matters, as long as the people around you are doing well.";
 	}
 
 
 if (greed>125&&self>=100&&self<=150){
-	
+
 	generosity=firstname+" is very generous. "+subjpronoun+" "+donotverb+ " need the money and other people do.";
 	}
 	if(greed>150){
-	
+
 	soctraits.push("Generous with their money.");
-	
+
 	}
-	
+
 
 
 //////good
 if (greed<75&&self>150){
-	
+
 	soctraits.push("Hoards wealth, stingy and avaricious.");
 	generosity=subjpronoun+" love"+verb+" money, hoard"+verb+" wealth. bathe"+verb+" in it.";
 	}
 
 
 if (greed>=75&&greed<=125&&self>150){
-	
+
 
 	generosity=subjpronoun+" "+donotverb+" really care about money. gain it, lose it, none of that really matters, as long as you're working to do the right thing.";
 	}
 
 
 if (greed>125&&self>150){
-	
+
 	generosity=firstname+" is very generous. even if "+subjpronoun+" need"+verb+" the money, other people need it more.";
 	}
 	if(greed>150){
-	
+
 	soctraits.push("Generous with their money.");
-	
+
 	}
 var kindness;
 var kind=Math.floor(Math.random()*200);
 
 if(alignment[p]=="lawful evil" || alignment[p]=="chaotic evil" || alignment[p]=="neutral evil" && kind>150){
-	
+
 	kind=kind-(Math.random()*150);
-	
+
 	}
 
 if(empath>150){
@@ -3538,7 +3548,7 @@ kind=kind+150;
 document.getElementById("kindarrow").style.marginLeft=kind+"px";
 
 if (kind<100&&self<50){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness=firstname+" will do whatever "+subjpronoun+" can to provoke the most enjoyable suffering."
 //moralsummary.push("dickish");
@@ -3550,11 +3560,11 @@ negtraits.push("dickish");
 	soctraits.push("Enjoys helping people.");
 
 //moralsummary.push("affably evil");
-negtraits.push("affably evil");	
+negtraits.push("affably evil");
 	}
 
 if (kind<100&&kind>=50&&self>=50&&self<=100){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness="other people's pain is usually pretty funny, though!";
 //moralsummary.push("schardenfreudy");
@@ -3562,7 +3572,7 @@ negtraits.push("schardenfreudy");
 	}
 
 if (kind<50&&self>=50&&self<=100){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness=firstname+" ignores other people's preferences in conversation.";
 //moralsummary.push("douchey");
@@ -3579,7 +3589,7 @@ negtraits.push("douchey");
 
 
 if (kind<100&&kind>=50&&self>150){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness=subjpronoun+sgcop+"pretty okay with straight up pissing people off for fun. that doesn't mean "+subjpronoun+"'ll ignore the suffering of others, however. ";
 	//moralsummary.push("annoying");
@@ -3587,7 +3597,7 @@ negtraits.push("annoying");
 	}
 
 if (kind<50&&self>150){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness=firstname+" isn't interested in being polite or kind to anyone "+subjpronoun+" "+donotverb+" already like.";
 negtraits.push("douchey");
@@ -3608,7 +3618,7 @@ if(kind>=100&&kind<150&&self>150){
 	}
 
 if (kind<100&&self>100&&self<=150){
-	
+
 	soctraits.push("Enjoys watching people suffer.");
 	kindness=subjpronoun+" enjoy"+verb+" watching other people freak out, and will often act however "+subjpronoun+" feel"+verb+" is most likely to secure a reaction. ";
 //moralsummary.push("prankstery");
@@ -3620,7 +3630,7 @@ negtraits.push("prankstery");
 	soctraits.push("Enjoys helping people.");
 	//moralsummary.push("polite");
 postraits.push("polite");
-	
+
 	}
 
 var vengence;
@@ -3637,7 +3647,7 @@ document.getElementById("vengearrow").style.marginLeft=venge+"px";
 
 
 if (venge<50){
-	
+
 	soctraits.push("Seeks vengeance for small grudges.");
 	vengence=subjpronoun+" seek"+verb+" vengence for tiny infractions."
 //moralsummary.push("petty");
@@ -3646,26 +3656,26 @@ negtraits.push("petty");
 	}
 
 if (venge>=50&&venge<100){
-	
+
 	soctraits.push("Seeks vengeance for small grudges.");
 	vengence=subjpronoun+" seek"+verb+" vengence for relatively small infractions."
 
 	}
 
 if(venge>=100&&venge<150){
-	
+
 	soctraits.push("Never holds a grudge.");
-	vengence=subjpronoun+" forgive"+verb+ " an infraction pretty quickly."	
+	vengence=subjpronoun+" forgive"+verb+ " an infraction pretty quickly."
 	}
 
 
 	if(venge>=150){
-	
+
 	soctraits.push("Never holds a grudge.");
-	vengence=subjpronoun+" forgive"+verb+ " an infraction almost as quickly as it occurs."	
+	vengence=subjpronoun+" forgive"+verb+ " an infraction almost as quickly as it occurs."
 //moralsummary.push("forgiving");
 postraits.push("forgiving");
-	
+
 
 }
 
@@ -3693,8 +3703,8 @@ var countneg=0;
 for (repeat4=summary.length-1;repeat4>=0;repeat4=repeat4-1)
 {
 	document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ " "+summary[repeat4];
-	
-	
+
+
 	}
 var chachange=Math.round(Math.random()*50)
 
@@ -3895,37 +3905,37 @@ negtraits.push("deceptive");
 
 
 if (honesty>150&&persuasive>160){
-deception=firstname+" is almost always honest. on the rare occasion that "+subjpronoun+" feel"+verb+" that lying is necessary, however, "+subjpronoun+sgcop+"always believed - ";
+deception=" "+firstname+" is almost always honest. on the rare occasion that "+subjpronoun+" feel"+verb+" that lying is necessary, however, "+subjpronoun+sgcop+"always believed - ";
 }
 else if (honesty<50&&persuasive>160){
-deception="for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. moreover, "+subjpronoun+" run"+verb+" very little risk by doing so, since everyone always believes "+objpronoun+" - ";
+deception=" for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. moreover, "+subjpronoun+" run"+verb+" very little risk by doing so, since everyone always believes "+objpronoun+" - ";
 }
 
 else if (honesty<50&&persuasive>=100&&persuasive<=160){
-deception="for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. "+subjpronoun+" "+haveverb+" to be somewhat cautious about this however, since "+posspronoun+" lies don't always escape detection - ";
+deception=" for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. "+subjpronoun+" "+haveverb+" to be somewhat cautious about this however, since "+posspronoun+" lies don't always escape detection - ";
 }
 
 else if (honesty>150&&persuasive>=100&&persuasive<=160){
-deception=firstname+" is almost always honest, and "+subjpronoun+sgcop+" generally also understood to have the right idea of things - ";
+deception=" "+firstname+" is almost always honest, and "+subjpronoun+sgcop+" generally also understood to have the right idea of things - ";
 }
 
 
 
 
 else if (honesty>150&&persuasive<100&&persuasive>=50){
-deception=firstname+" is almost always honest. unfortunately for "+objpronoun+", nobody finds "+objpronoun+" convincing - ";
+deception=" "+firstname+" is almost always honest. unfortunately for "+objpronoun+", nobody finds "+objpronoun+" convincing - ";
 }
 
 else if (honesty<50&&persuasive<100&&persuasive>=50){
-deception="for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. unfortunately for "+objpronoun+", nobody finds "+objpronoun+" convincing - ";
+deception=" for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. unfortunately for "+objpronoun+", nobody finds "+objpronoun+" convincing - ";
 }
 
 else if (honesty<50&&persuasive<50){
-deception=firstname+" is almost always honest. unfortunately for "+objpronoun+", "+subjpronoun+" "+haveverb+" a hard enough time expressing "+reflexpronoun+" at all, so people rarely believe "+subjpronoun+" "+haveverb+" anything worthwhile to say - ";
+deception=" "+firstname+" is almost always honest. unfortunately for "+objpronoun+", "+subjpronoun+" "+haveverb+" a hard enough time expressing "+reflexpronoun+" at all, so people rarely believe "+subjpronoun+" "+haveverb+" anything worthwhile to say - ";
 }
 
 else if (honesty>150&&persuasive<50){
-deception="for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. unfortunately for "+objpronoun+", "+subjpronoun+" "+haveverb+" a hard enough time expressing "+reflexpronoun+" at all, let alone lying - ";
+deception=" for whatever reason, "+firstname+" always feels that hiding the truth is better than revealing it. unfortunately for "+objpronoun+", "+subjpronoun+" "+haveverb+" a hard enough time expressing "+reflexpronoun+" at all, let alone lying - ";
 }
 
 else{
@@ -4040,7 +4050,7 @@ accent=" ";
 
 
 
-//firstname speaks in a voice that is 
+//firstname speaks in a voice that is
 
 var voice=Math.round(Math.random()*200);
 var voicetypes=["light",]
@@ -5255,7 +5265,7 @@ strange.push("basically a lot of things. ");
 
 
 
-var kindsofcrazy=["goes cloud-cookoo-lander","suddenly believes "+subjpronoun+sgcop+" someone else"," has a panic attack when "+subjpronoun+" run"+verb+" into "+fear1+" ","finds it difficult to believe that the enemy wants to injure them","believes "+reflexpronoun+" to be immortal"]
+var kindsofcrazy=["goes cloud-cookoo-lander","suddenly believes "+subjpronoun+sgcop+" someone else"," has a panic attack when "+subjpronoun+" run"+verb+" into "+fear1+" ","finds it difficult to believe that the enemy wants to injure "+objpronoun,"believes "+reflexpronoun+" to be immortal"]
 
 crazychoice=Math.floor(Math.random()*kindsofcrazy.length);
 
@@ -5281,14 +5291,14 @@ strange.push(posspronoun+" favourite colour is "+favcol+". ");
 
 
 
-
+var weirdfeatures=""
 
 for (repeat9=0;repeat9<strange.length;repeat9++){
 
-document.getElementById("proseincidental").innerHTML=document.getElementById("proseincidental").innerHTML+ strange[repeat9];
+weirdfeatures=weirdfeatures+ strange[repeat9];
 
 }
-
+document.getElementById("proseincidental").innerHTML=sentencecaps(weirdfeatures);
 
 
 /*
@@ -5316,18 +5326,18 @@ document.getElementById("summary").innerHTML=document.getElementById("summary").
 else{
 
 	document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML +", "+moralsummary[repeat2];
-	
+
 	}
 	}*/
 
 for (repeat6=negtraits.length-1;repeat6>=1;repeat6=repeat6-(Math.ceil(Math.random()*3))){
 
 
-	
+
 
 document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ " "+negtraits[repeat6]+", ";
 	countneg++;
-	
+
 	}
 
 
@@ -5347,7 +5357,7 @@ for (repeat5=postraits.length-1;repeat5>=1;repeat5=repeat5-(Math.ceil(Math.rando
 
 document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ postraits[repeat5]+", ";
 	countpos++
-	
+
 	}
 if (countpos==0){
 document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ " "+postraits[0]+". ";}
@@ -5467,7 +5477,7 @@ if(Intelligence>13&&Intelligence<=15&weh>1000){
 	if(astronomy>170){
 	interests.push("astronomy");
 	}
-	
+
 
 	if(history>170){
 	interests.push("history");
@@ -5974,7 +5984,7 @@ animals[animalscount]+" things",
 var collectscount=Math.floor(Math.random()*collectsoptions.length);
 
 var collects=Math.round(Math.random()*200);
- 
+
 if (collects>150){
 
 hobbies.splice(0,0,"collecting "+collectsoptions[collectscount]);
@@ -5988,52 +5998,49 @@ hobbies.splice(0,0,"collecting "+collectsoptions[collectscount]);
 
 
 
-document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+" "+subjpronoun+" "+haveverb+" ";
 
 
 
+var withdesc=subjpronoun+" "+haveverb+" ";
 
 
 for (repeat1=0;repeat1<withsummary.length-1;repeat1=repeat1+1)
 {
-
-	document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ withsummary[repeat1]+", ";
+	withdesc=withdesc+ withsummary[repeat1]+", ";
 countwith++;
-
-
-
 }
+
+
 
 if (countwith==0){
-document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ " "+withsummary[0]+". ";}
+	withdesc=withdesc+" "+withsummary[0]+". "
+}
 
 else{
-document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+ " and "+withsummary[withsummary.length-1]+". ";
+withdesc=withdesc+ " and "+withsummary[withsummary.length-1]+". ";
 
 }
+document.getElementById("summary").innerHTML=document.getElementById("summary").innerHTML+sentencecaps(withdesc);
 
+var weirdfactscontainer=""
 for (repeat7=0;repeat7<interests.length-1;repeat7=repeat7+Math.ceil(Math.random()*3))
 {
-
-	document.getElementById("weirdfacts").innerHTML=document.getElementById("weirdfacts").innerHTML+ interests[repeat7]+". ";
+weirdfactscontainer=weirdfactscontainer+ interests[repeat7]+". ";
 countinterest++;
-
 }
 
-	
+
 for (repeat8=0;repeat8<hobbies.length-1;repeat8=repeat8+Math.ceil(Math.random()*3))
 {
-
-	document.getElementById("weirdfacts").innerHTML=document.getElementById("weirdfacts").innerHTML+ hobbies[repeat8]+". ";
-
+weirdfactscontainer=weirdfactscontainer+hobbies[repeat8]+". "
 countinterest++;
+}
+if (countinterest!=0){
+document.getElementById("weirdfacts").innerHTML=sentencecaps(weirdfactscontainer);
+}
+else{
 
-
-}	
-		
-if (countinterest==0){
-
-document.getElementById("weirdfacts").innerHTML=document.getElementById("weirdfacts").innerHTML+ "none to speak of. ";
+document.getElementById("weirdfacts").innerHTML=document.getElementById("weirdfacts").innerHTML+ "None to speak of. ";
 
 
 }
@@ -6042,21 +6049,27 @@ document.getElementById("weirdfacts").innerHTML=document.getElementById("weirdfa
 document.getElementById("testpronouns").innerHTML=subjpronoun+objpronoun+posspronoun+reflexpronoun+"<br />"+firstname+lastname;
 
 
+var physdesc=sentencecaps("Physically, "+firstname+" is "+height+" for a "+gender+ " "+races[ra] +" and "+posspronoun+" frame is "+muscles+". "+weight+" "+looks+". <br />"+firstname+" has "+skin+" skin and "+haircolor+" hair, which is "+curly+" and "+hairlength+". "+beard+" "+clothes+"<br />"+genderdesc+" "+ subjpronoun+ sgcop +"attracted to "+attraction+ " "+libido);
 
+var baldphysdesc= sentencecaps("Physically, "+firstname+" is "+height+" for a "+gender+ " "+races[ra] +" and "+posspronoun+" frame is "+muscles+".  "+weight+" "+looks+". <br />"+firstname+" has "+skin+" skin and is bald. "+beard+" "+clothes+"<br/> "+genderdesc+" "+ subjpronoun+ sgcop +"attracted to "+attraction+ " "+libido);
 
 if (hairlength!="bald"){
-document.getElementById("prosephys").innerHTML="physically, "+firstname+" is "+height+" for a "+gender+ " "+races[ra] +" and "+posspronoun+" frame is "+muscles+". "+weight+" "+looks+". <br />"+firstname+" has "+skin+" skin and "+haircolor+" hair, which is "+curly+" and "+hairlength+". "+beard+"  "+clothes+"<br />"+genderdesc+" "+ subjpronoun+ sgcop +"attracted to "+attraction+ " "+libido;}
-
+document.getElementById("prosephys").innerHTML=physdesc;
+}
 else{
-document.getElementById("prosephys").innerHTML="physically, "+firstname+" is "+height+" for a "+gender+ " "+races[ra] +" and "+posspronoun+" frame is "+muscles+".  "+weight+" "+looks+". <br />"+firstname+" has "+skin+" skin and is bald. "+beard+" "+clothes+"<br/> "+genderdesc+" "+ subjpronoun+ sgcop +"attracted to "+attraction+ " "+libido;}
- 
+document.getElementById("prosephys").innerHTML=baldphysdesc}
 
+var socdesc= sentencecaps(firstname+" usually appears "+temperament+" and is " +sociable+". " +posspronoun+" self-esteem is "+selfesteem+" and "+subjpronoun+sgcop+energy+" "+arrogance+subjpronoun+" " +conflict+". " +subjpronoun+ " "+violence+" in social situations."+deception+posspronoun+" speech is "+convince+". ")
 
-document.getElementById("prosesoc").innerHTML=firstname+" usually appears "+temperament+" and is " +sociable+". " +posspronoun+" self-esteem is "+selfesteem+" and "+subjpronoun+sgcop+energy+" "+arrogance+subjpronoun+" " +conflict+". " +subjpronoun+ " "+violence+" in social situations. "+deception+posspronoun+" speech is "+convince+". ";
+var moraldesc=sentencecaps("morally, " +firstname+ " is primarily " +selfness+ " "+empathy+" "+kindness+" "+vengence+" "+generosity);
 
-document.getElementById("prosemoral").innerHTML="morally, " +firstname+ " is primarily " +selfness+ " "+empathy+" "+kindness+" "+vengence+" "+generosity;
+var psychdesc=sentencecaps(firstname+ " is "+cynicism+" "+conscientious+subjpronoun+sgcop+giveashit+" "+courageous+" "+ambition+ " and"+emotions);
 
-document.getElementById("prosepsych").innerHTML=" "+firstname+ " is "+cynicism+" "+conscientious+" "+subjpronoun+sgcop+giveashit+" "+courageous+" "+ambition+ " and"+emotions;
+document.getElementById("prosesoc").innerHTML=socdesc;
+
+document.getElementById("prosemoral").innerHTML=moraldesc;
+
+document.getElementById("prosepsych").innerHTML=psychdesc;
 
 
 
