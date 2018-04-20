@@ -1,0 +1,335 @@
+p{
+	margin:0px;
+	}
+
+body{
+font-family:"Amaranth", Helvetica, sans-serif;
+background-image:url(designelements/ehud-neuhaus-162166.jpg);
+background-position: center;
+background-size:cover;
+background-attachment:fixed;
+
+color:white;
+font-size:1.2em;
+}
+
+#chartraits{
+width:200px;
+height:auto;
+background-color:rgba(0,0,0,0.7);
+padding:20px;
+float:left;
+}
+
+#prose{
+width:50%;
+height:auto;
+background-color:rgba(0,0,0,0.7);
+float:left;
+}
+#prose p {
+	font-family:"Raleway", Helvetica, sans-serif;
+
+}
+@media screen and (max-width:700px){
+	#prose{
+		width:100%;
+}
+}
+
+#prosechange{
+width:100%;
+height:100%;
+margin:auto;
+
+}
+
+
+#prosecontainer{
+font-size:0.8em;
+padding:20px;
+
+}
+
+
+#wrapperhead{
+width:200px;
+height:auto;
+
+
+
+
+}
+
+#appearwrap{
+width:200px;
+height:600px;
+background-color:rgba(100,100,100,0.7);
+padding:20px;
+float:left;
+display:none;
+}
+
+#physwrap{
+width:200px;
+height:600px;
+background-color:rgba(100,100,100,0.7);
+padding:20px;
+float:left;
+display:none;
+
+
+}
+#interperswrap{
+width:200px;
+height:700px;
+background-color:rgba(100,100,100,0.7);
+margin:20px;
+border-radius:15px;
+padding:20px;
+float:left;
+display:none;
+
+}
+
+#test{
+width:200px;
+height:auto;
+background-color:rgba(100,100,100,0.7);
+margin:20px;
+border-radius:15px;
+padding:20px;
+float:left;
+display:none;
+}
+
+
+
+#psychtraits{
+width:200px;
+height:1000px;
+background-color:rgba(100,100,100,0.7);
+margin:20px;
+border-radius:15px;
+padding:20px;
+float:left;
+display:none;
+
+}
+
+#moneywrapper{
+width:200px;
+height:auto;
+margin-top:20px;
+margin-bottom:20px;
+
+
+
+}
+
+
+#statwrapper{
+width:200px;
+height:600px;
+background-color:rgba(100,100,100,0.7);
+
+padding:20px;
+float:left;
+
+
+}
+
+#attrwrapper{
+width:200px;
+height:auto;
+
+
+
+
+}
+
+
+
+#gender{
+	width:200px;
+	float:left;
+	display:none;
+
+	}
+#sexual{
+	width:200px;
+	float:left;
+	display:none;
+	}
+
+#yo{
+float:right;
+}
+
+
+
+#statnames{
+float:left;
+
+}
+
+#header{
+margin:auto;
+
+}
+
+
+.clear{
+
+clear:both;
+}
+
+#female{
+
+float: left;
+font-size:0.5em;
+margin:2px;
+}
+#male{
+
+float: right;
+font-size:0.5em;
+margin:2px;
+}
+#arrow, #Sarrow{
+
+margin:0px;
+
+
+}
+
+hr{
+
+margin:0px;
+}
+
+
+.num{
+
+float:left;
+
+
+}
+
+#ace{
+
+	float:left;
+	margin-left:3px;
+	}
+
+#race{
+margin:0px;
+
+}
+
+
+
+
+	#age{
+		font-size:0.8em;
+
+
+
+		}
+		#perstraits{
+
+			width:200px;
+
+
+			}
+
+			.left{
+				float:left;
+				font-size:0.5em;
+
+				}
+				.right{
+				float:right;
+				font-size:0.5em;
+
+				}
+
+
+		.bigp{
+			margin:0 0 20px 0 ;
+
+
+
+			}
+#weirdfacts{
+
+margin:20px 0;
+}
+
+#beard{
+font-size:0.7em;
+
+}
+
+#sins{
+
+width:200px;
+height:auto;
+background-color:rgba(100,100,100,0.7);
+margin:20px;
+border-radius:15px;
+padding:20px;
+float:left;
+display:none;
+}
+
+
+#headcontainer{
+width:240px;
+float:left;
+margin-right:20px;
+
+}
+
+h1 img{
+width: 150px;
+margin-left: 40px;
+
+top: 20px;
+right: 5px;
+}
+h1{
+
+}
+
+#navwrap{
+	float:left;
+	padding:0px;
+	display:none;
+
+
+
+}
+
+#navwrap li{
+	list-style:none;
+	float:left;
+	background-color:rgba(100,100,100,0.5);
+	padding:10px;
+	border-right:1px white solid;
+	margin:0;
+}
+
+#navwrap ul{
+	margin:0;
+	padding:0;
+	float:left;
+	border:1px solid green;
+}
+/*div{
+	border:1px black solid;
+
+}*/
+.header {
+	max-width:100%;
+}
